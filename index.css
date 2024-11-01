@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/empty-start-up-company-office-with-nobody-it-waiting-people-start-working-financial-documents-business-meeting-workplace-with-modern-furniture-management-graphs-computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    gap: 350px;
+    padding: 0 50px;
+}
+.heading>p{
+    font-size: 60px;
+    padding-top: 220px;
+}
+.Elevate{
+    color: lightblue;
+}
+.content-inner{
+    /* width: 80%; */
+    color: lightblue;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.btn1{
+    background-color: aqua;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+/* .arrow-icon{
+    padding-top: 8px;
+    width: 30px;
+
+} */
+.btn2{
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+}
+.button{
+    padding-top: 260px;
+}
+.innovation{
+    text-align: center;
+    margin-top: 69px;
+    font-size: 22px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    /* width: 50px;
+    height: 50px; */
+}
+.img1>img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: -11px;
+    margin-top: 27px;
+}
+.img2>img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: -11px;
+    margin-top: 27px;
+}
+.img3>img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: -11px;
+    margin-top: 27px;
+}
+.img4>img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: -11px;
+    margin-top: 27px;
+}
+.smart-tech{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 49px;
+}
+.service{
+    text-align: center;
+    margin-top: 19px;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.aura-feats{
+    display: flex;
+    justify-content: center;
+    margin: 49px;
+    gap: 60px;
+    margin-top: 99px;
+}
+.aura-feats2>p{
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.aura-feats2 ul li{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 9px;
+}
+.aura-feats2 h2{
+    margin-bottom: 11px;
+    font-size: 32px;
+}
+.aura-system{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 49px;
+    margin-top: 79px;
+}
+.check-circle{
+    padding-top: 10px;
+}
+.aura-system2 h2{
+    font-size: 32px;
+    margin-top: 18px;
+}
+.aura-system2 p{
+    font-size: 22px;
+    margin-top: 14px;
+    padding-bottom: 10px;
+}
+.System-image img{
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    /* margin-left: -91px; */
+}
+.aura-system2 ul li{
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.customer{
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 18px;
+    font-size: 32px;
+    /* padding-top: 80px; */
+}
+.customer1{
+    padding-top: 60px;
+}
+.customer-section{
+    background-color: lightcyan;
+}
+.testimonies-section{
+    background-color: lightcyan;
+}
+.testimonies{
+    margin-top: 20px;
+    display: flex;
+    gap: 18px;
+    margin: 51px;
+    background-color: lightcyan;
+}
+.testimonies1{
+    font-size: 25px;
+    margin-top: 60px;
+}
+.testimonies2{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+.explore-sect{
+    padding: 100px 50px;
+}
+.img-background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/loft-home-office-interior-design.jpg);
+    width: 100%;
+    height: 650px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.explore-text{
+    font-size: 2.6rem;
+    width: 23%;
+    padding-top: 200px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+}
+/* .prods1{
+    margin-top: 59px;
+} */
+.prods{
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    padding: 10px 30px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.aura-foot{
+    display: flex;
+    gap: 120px;
+    margin: 20px;
+}
+.AURAHOME-logo1{
+    font-size: 1.9rem;
+    /* margin-top: -20px; */
+    color: white;
+}
+.aura-foot-sect{
+    background-color: aqua;
+    padding-bottom: 10px;
+    /* padding: -70px; */
+}
+.links{
+    list-style-type: none;
+}
+.links1>h2{
+    padding-bottom: 16px;
+}
+.links1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.links1 ul li{
+    padding: 3px;
+}
+.news>h2{
+    padding-top: 16px;
+}
+.news>p{
+    padding: 20px;
+}
+.news h2 a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+.stores>h2{
+    padding-bottom: 16px;
+}
+.stores ul li{
+    list-style-type: none;
+    padding: 3px;
+}
+.number-location ul li{
+    list-style-type: none;
+    padding: 3px;
+}
+.location{
+    padding: 4px;
+}
+.phone{
+    padding: 4px;
+}
+@media only screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        background-color: white;
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        padding: 2% 5%;
+    }
+    nav ul li a{
+        color: black;
+    }
+    
+
+}
